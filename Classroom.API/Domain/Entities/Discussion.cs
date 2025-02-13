@@ -7,7 +7,7 @@
         public int CreatorId { get; set; }
         public int ClassroomId { get; set; }
         public Classroom? Classroom { get; set; }
-        public int? ParentId { get; set; }
+        public int ParentId { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
         public User? Creator { get; set; }

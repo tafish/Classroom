@@ -7,7 +7,6 @@
         public string Description { get; set; } = string.Empty;
         public int TotalScore { get; set; }
         public TimeSpan Time { get; set; }
-        //   public int Time { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public bool IsOpen { get; set; }

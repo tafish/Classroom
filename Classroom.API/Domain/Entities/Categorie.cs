@@ -6,7 +6,7 @@ namespace Classroom.API.Domain.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        public int? ParentId { get; set; }
+        public int ParentId { get; set; }
         public Parent? parent { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
