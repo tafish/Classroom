@@ -30,7 +30,6 @@
     <Folder Include="Application\Service\" />
     <Folder Include="Controllers\" />
     <Folder Include="Infrastructure\Data\" />
-    <Folder Include="Middleware\" />
   </ItemGroup>
 
 </Project>

@@ -12,6 +12,7 @@ namespace Classroom.API.Infrastructure.Context
         {
                 
         }
+       
         public DbSet<Domain.Entities.Classroom> classrooms{ get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
