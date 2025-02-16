@@ -29,7 +29,6 @@
     <Folder Include="Application\Validation\" />
     <Folder Include="Application\Service\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Infrastructure\Data\" />
   </ItemGroup>
 
 </Project>

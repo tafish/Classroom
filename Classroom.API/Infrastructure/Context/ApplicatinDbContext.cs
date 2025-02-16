@@ -1,4 +1,5 @@
 ﻿using Classroom.API.Domain.Entities;
+using Classroom.API.Infrastructure.Data;
 using MathNet.Numerics.Distributions;
 using Microsoft.EntityFrameworkCore;
 using NPOI.POIFS.Properties;
@@ -12,7 +13,13 @@ namespace Classroom.API.Infrastructure.Context
         {
                 
         }
-       
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Seed();
+
+            base.OnModelCreating(modelBuilder);
+        }
+
         public DbSet<Domain.Entities.Classroom> classrooms{ get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
