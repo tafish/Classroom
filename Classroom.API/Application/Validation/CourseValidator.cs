@@ -1,7 +1,7 @@
 ﻿using Classroom.API.Domain.Entities;
 using FluentValidation;
 
-namespace Classroom.API.Middleware
+namespace Classroom.API.Application.Validation
 {
     public class CourseValidator : AbstractValidator<Course>
     {
