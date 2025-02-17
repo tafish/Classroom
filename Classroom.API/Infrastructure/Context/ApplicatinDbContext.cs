@@ -15,7 +15,8 @@ namespace Classroom.API.Infrastructure.Context
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Seed();
+            modelBuilder.ClassroomSeed();
+            modelBuilder.CategorieSeed();
 
             base.OnModelCreating(modelBuilder);
         }

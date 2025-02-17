@@ -4,7 +4,7 @@ namespace Classroom.API.Infrastructure.Data
 {
     public static class ModelBuilderExtensions
     {
-        public static void Seed(this ModelBuilder modelBuilder)
+        public static void ClassroomSeed(this ModelBuilder modelBuilder)
         {
             modelBuilder.Entity <Domain.Entities.Classroom>().HasData(
            new Domain.Entities.Classroom
